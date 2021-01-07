@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="paralel calıstirma" parallel="classes">
+
+    <test name="paralel test">
+        <classes>
+            <class name="com.techproed.tests.D25_WindowHandle"></class>
+            <class name="com.techproed.tests.D26_AmazonHucreTesti"></class>
+            <class name="com.techproed.tests.D26_AmazonSatirSutunSayisi"></class>
+        </classes>
+    </test>
+</suite>
