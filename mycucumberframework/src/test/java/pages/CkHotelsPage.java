@@ -6,12 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class CkHotelsLoginPage {
-public CkHotelsLoginPage(){
+public class CkHotelsPage {
+public CkHotelsPage(){
     PageFactory.initElements(Driver.getDriver(), this);
 }
     @FindBy(linkText = "Log in")
-    public WebElement loginButonu;
+    public WebElement ilkLogin;
 
     @FindBy(id = "UserName")
     public WebElement userNameTextBox;
@@ -19,8 +19,9 @@ public CkHotelsLoginPage(){
     @FindBy(id = "Password")
     public WebElement passwordTextBox;
 
-    @FindBy(id = "btnSubmit")
-    public WebElement girisButton;
+    @FindBy(id="btnSubmit")
+    public WebElement ikinciLoginButonu;
+
 
     @FindBy(className = "caption")
     public WebElement listOfUserText;
