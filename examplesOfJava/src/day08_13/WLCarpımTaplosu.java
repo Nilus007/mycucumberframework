@@ -15,5 +15,6 @@ public class WLCarpımTaplosu {
             System.out.println(num + "x" + i + "=" + num * i);
             i++;
         }
+        scan.close();
     }
 }

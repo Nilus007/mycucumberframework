@@ -23,6 +23,7 @@ public class QFL03 {
             }
             System.out.println();
         }
+        scan.close();
     }
 }
 
